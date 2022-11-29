@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: getupclient
+  cloud:
+    config:
+      uri: http://10.248.43.59:8888
+
